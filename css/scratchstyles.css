@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c6e2c8;
+    color: #222;
+}
+
+.header {
+    background-color: #314136;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    padding: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-img {
+    height: 700px;
+    margin: 15px 0;
+    border: 2px solid #444;
+}
+
+.section-img-med {
+    height: 400px;
+    margin: 15px 0;
+    border: 2px solid #444;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+footer {
+    background-color: #314136;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+.anchor-link {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #555;
+}
+
+ol, ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ol li, ul li {
+    margin: 5px 0;
+}
+
+.header a,
+footer a {
+    color: #c6e2c8; /* light greenish shade for contrast */
+    text-decoration: none;
+}
+
+.header a:hover,
+footer a:hover {
+    text-decoration: underline;
+}
+
+#snake-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+<audio id="eatSound" src="assets/eat.mp3" preload="auto"></audio>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch HTML Page</title>
+    <link rel="stylesheet" href="css/scratchstyles.css">
+    <a href="index.html">Home</a> | 
+    <a href="resume.html">Resume</a> | 
+    <a href="projects.html">Projects</a> | 
+    <a href="contact.html">Contact</a>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to My Scratch HTML Page</h1>
+        <p><a href="#car">My Car</a> | 
+            <a href="#tableau">Tableau</a> | 
+            <a href="#sound">Sound Tech</a> | 
+            <a href="snakewebgame.html">Snake Web Game</a>
+        </p>
+        <p><h5>Mark Ahrens, IS 501</h5></p>
+    </div>
+
+    <div class="section" id="car">
+        <h2>My Car: Sonic the 2004 Honda Civic</h2>
+        <img src="assets/sonic.jpeg" alt="My blue Honda Civic" class="section-img" height="400px">
+        <p>I love working on my car and keeping it running smoothly. Sonic has been a fun project for me over the years!</p>
+
+        <ol>
+            <li>Basic Maintenance
+                <ul>
+                    <li>Oil Changes</li>
+                    <li>Air Filter Replacement</li>
+                    <li>Tire Rotations</li>
+                </ul>
+            </li>
+            <li>Upgrades in Progress
+                <ul>
+                    <li>Subwoofer Installation</li>
+                    <li>Under-body LED Lights</li> 
+                </ul>
+            </li>
+        </ol>
+        <p>Yeah, its going to be obnoxious, but its also going to be sweet.</p> 
+        <div style="margin-bottom: 20px">
+            <a href="#top" >Back to Top</a>
+        </div>
+    </div>
+
+    <div class="section" id="tableau">
+        <h2>Cool Data: Embedded Tableau Graph</h2>
+        <!-- Tableau webpage embed code -->
+        <div class='tableauPlaceholder' id='viz1745017329028' style='position: relative'><noscript><a href='https:&#47;&#47;www.tableau.com&#47;'><img alt='Global Crop Production ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5M&#47;5M9CDNGMW&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;5M9CDNGMW' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5M&#47;5M9CDNGMW&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='tabs' value='no' /><param name='showTabs' value='y' /></object></div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1745017329028');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width='883px';vizElement.style.height='1027px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+        <div style="margin-bottom: 20px">
+            <a href="#top" >Back to Top</a>
+        </div>
+    </div>
+
+    <div class="section" id="sound">
+        <h2>Sound Mixing for Theater </h2>
+        <img src="assets/behringerx32.png" alt="Behringer X32 Soundboard" class="section-img-med">
+        <p>In high school, I worked as a sound tech for our theater productions. I used the Behringer X32 and even made a tutorial video to help others learn it. Although, its not as cool as the <a href="#car">work</a> I do on my car.</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QVupChWgWDY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <footer>
+<div style="margin-bottom: 20px">
+    <a href="#top" >Back to Top</a>
+</div>
+<div style="margin-top: 20px;">
+    <a href="index.html">Home</a> | 
+    <a href="resume.html">Resume</a> | 
+    <a href="projects.html">Projects</a> | 
+    <a href="contact.html">Contact</a>
+</div>
+    </footer>
+</body>
+</html>
